@@ -1,0 +1,16 @@
+:root {
+  --logo-font-family: 'Raleway', sans-serif;
+  --primary-font-family: 'Roboto', sans-serif;
+  --accent-color: #2196f3;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --white-color: #ffffff;
+  --dark-color: #000000;
+}
+body {
+  font-family: var(--primary-font-family);
+}
+
+.list-item {
+  list-style: none;
+}
