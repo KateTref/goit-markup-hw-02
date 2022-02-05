@@ -2,6 +2,7 @@
   --logo-font-family: 'Raleway', sans-serif;
   --primary-font-family: 'Roboto', sans-serif;
   --accent-color: #2196f3;
+  --secondary-blue-color: #188ce8;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --white-color: #ffffff;
@@ -32,6 +33,9 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--dark-color);
+}
+.logo-footer {
+  color: var(--white-color);
 }
 .first-word {
   color: var(--accent-color);
@@ -75,7 +79,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--secondary-blue-color);
 }
 .principles-title {
   font-size: 14px;
@@ -119,7 +123,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: var(--white-color); */
+  color: var(--white-color);
+}
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--accent-color);
 }
 
 /* --PORTFOLIO-- */
