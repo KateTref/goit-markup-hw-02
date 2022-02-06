@@ -40,12 +40,15 @@ body {
 .first-word {
   color: var(--accent-color);
 }
-.list-head {
+.list-nav {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.list-nav .link.current {
+  color: var(--accent-color);
 }
 .contacts-head {
   font-style: normal;
