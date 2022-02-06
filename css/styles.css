@@ -3,6 +3,7 @@
   --primary-font-family: 'Roboto', sans-serif;
   --accent-color: #2196f3;
   --secondary-blue-color: #188ce8;
+  --back-color: #2f303a;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
   --white-color: #ffffff;
@@ -11,7 +12,7 @@
 }
 body {
   font-family: var(--primary-font-family), sans-serif;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
 }
 
 .list-item {
@@ -40,33 +41,32 @@ body {
 .first-word {
   color: var(--accent-color);
 }
-.list-nav {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-.list-nav .link.current {
-  color: var(--accent-color);
-}
+.list-nav,
 .contacts-head {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.list-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts-head {
   color: var(--secondary-text-color);
 }
-
+.hero {
+  background-color: var(--back-color);
+}
 .hero-title {
-  /* color: var(--white-color); */
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: var(--white-color);
 }
 .hero-btn {
   font-family: inherit;
@@ -96,7 +96,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
 .subject-title,
 .team-title {
@@ -105,20 +104,21 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 .team-name {
   font-weight: 500;
+  color: var(--primary-text-color);
+}
+.team-position,
+.team-name {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-position {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+.footer {
+  background-color: var(--back-color);
 }
 .address-text {
   font-style: normal;
@@ -145,6 +145,7 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--btn-nav-color);
   cursor: pointer;
+  color: var(--primary-text-color);
 }
 .nav-btn:active {
   background-color: var(--accent-color);
@@ -154,10 +155,10 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 .kind-job {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
 }
