@@ -147,7 +147,8 @@ body {
   cursor: pointer;
   color: var(--primary-text-color);
 }
-.nav-btn:active {
+.nav-btn:hover,
+.nav-btn:focus {
   background-color: var(--accent-color);
 }
 .name-job {
